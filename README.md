@@ -47,34 +47,62 @@
 	git status
 	```
 14. output remote git
-	```git remote -v```
+	```
+	git remote -v
+	```
 15. Push origin
-	```git push origin```
+	```
+	git push origin
+	```
 16. check status
-	```git status```
+	```
+	git status
+	```
 17. push origin by branch
-	```git push origin <BRANCH_NAME>```
+	```
+	git push origin <BRANCH_NAME>
+	```
 18. Refresh forked git page
 19. Click on button `Compare & pull request`
 
 ### Original repo
 20. add upsteram an original repo
-	```git remote add upstream git@github.com:<USERNAME>/<Repo>.git```
+	```
+	git remote add upstream git@github.com:<USERNAME>/<Repo>.git
+	```
 21. Check remote origins and upstream
-	```git remote -v```
+	```
+	git remote -v
+	```
 22. grab all changes from original remote repo
-	```git fetch upstream```
+	```
+	git fetch upstream
+	```
 23. reset master - your git
-	```git reset``
+	```
+	git reset
+	```
 24. checkout master
-	```git checkout master```
+	```
+	git checkout master
+	```
 25. check again status
-	```git status```
+	```
+	git status
+	```
 26. change master from upstream
-	```git reset --hard upstream/master```
+	```
+	git reset --hard upstream/master
+	```
 27. check again loig to verify changings
-	```git log```
+	```
+	git log
+	```
 28. Update master
-	```git push origin master```
+	```
+	git push origin master
+	```
 29. Pull request		
-	```git push upstream master```								 								 			
+	```
+	git push upstream master
+	```								 								 			
