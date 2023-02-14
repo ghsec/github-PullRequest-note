@@ -6,7 +6,9 @@
 1. Fork repo
 2. Clone repo
 3. Open in VS Code
-	```code -r .```
+	```
+	code -r .
+	```
 4. Check Git status
 	```git status```
 5. Check git logs
