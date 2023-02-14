@@ -10,24 +10,42 @@
 	code -r .
 	```
 4. Check Git status
-	```git status```
+	```
+	git status
+	```
 5. Check git logs
-	```git log```
+	```
+	git log
+	```
 6. Swith to new branch
-	```git checkout -b 'testing-demo'```
+	```
+	git checkout -b 'testing-demo'
+	```
 7. Get branch
-	```git branch```
+	```
+	git branch
+	```
 8. Make some changes on files
 9. check git status again
-	```git status```
+	```
+	git status
+	```
 10. Add changed file
-	```git add <FILE_NAME>```
+	```
+	git add <FILE_NAME>
+	```
 11. git commit
-	```git commit -m 'Explain what is changed in file'```
+	```
+	git commit -m 'Explain what is changed in file'
+	```
 12. Check git log again
-	```git log```
+	```
+	git log
+	```
 13. Check status again
-	```git status```
+	```
+	git status
+	```
 14. output remote git
 	```git remote -v```
 15. Push origin
